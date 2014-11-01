@@ -10,4 +10,12 @@ Now product document has a tags array. This array describe the product, for inst
 }
 ```
 
-To find similar products in orther to fill `similar products list` we run a query that resolve the intersection of the tags arrays, between the current product and the others in the data base. Product that has more matches goes first and the ones that has less matches goes last. 
+To find similar products in orther to fill `similar products list` we run a query that resolve the intersection of the tags arrays, between the current product and the others in the data base. Product that has more matches goes first and the ones that has less matches goes last. For instance:
+
+```
+['woman', 'jacket', 'leather', ...] INTERSECT WITH: 
+  ['woman', 'jacket', 'leather', ...] -> 3 matches
+  ['woman', 'jacket', 'nylon', ...] -> 2 matches 
+...
+...
+```
