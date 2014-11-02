@@ -33,4 +33,4 @@ These links or rules could be represented as a JSON document:
 
 ### Wear it with list
 
-We could run the `similarity query` between the `current product` tags array and the `with` array of the rules, and get the first N rules. Then we have a set of N `wear tags` arrays. In order to obtain the `wear it with` list for the `current product`, we could run the `similarity query` for each `wear tags` array against the tags arrays of the products in the data base. Then we could get the first product of each query result, and fill the `wear it with` list.
+We could run the `similarity query` between the `current product` tags array and the `with` array of the rules, and get the first N rules. Then we have a set of N `wear tags` arrays. In order to obtain the `wear it with` list for the `current product`, we could run the `similarity query` between each `wear tags` array and the tags arrays of the products in the data base. Then we could get the first product of each query result, and fill the `wear it with` list.
