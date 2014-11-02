@@ -16,10 +16,10 @@ To find similar products in order to fill `similar products` list we run a query
 
 I think that to fill the `wear it with` list we could run some queries like the `similarity query`, between `current product`, a set of `wear it with` rules, and the products in the database.
 
-### Wear it with rules document
+### Wear it with rules collection
 
 We've been talking about to create an admin tool to define links between products, to declare which product could be wear with other. **I propose to link tags instead of products**. I think this is a better approach because you are linking "kinds of product" instead of each single product, so a new product get linked automatically when it is tagged.
-These links or rules could be represented as a JSON document:
+These links or rules could be represented as a JSON collection:
 
 ```
 [
