@@ -14,7 +14,7 @@ Now product document has a tags array. This array describe the product, for inst
 
 To find similar products in orther to fill `similar products` list we run a query that resolve the intersection of the tags arrays, between the `current product` (the one that we are viewing its detail) and the others in the data base. Product that has more matches goes first and the ones that has less matches goes last. Lets call this query `similarity query`.
 
-I think that to fill the `wear it with` list We could run some queries like the used to fill the `similar products list`, and get the first product from each query result. But using some `wear it with tags` arrays instead of the product tags array.
+I think that to fill the `wear it with` list We could run some queries like the `similarity query`, between `current product`, a set of `wear it with` rules, and the products in the database.
 
 ### Wear it with rules document
 
