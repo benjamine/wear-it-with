@@ -16,7 +16,7 @@ To find similar products in orther to fill `similar products` list we run a quer
 
 I think that to fill the `wear it with` list We could run some queries like the used to fill the `similar products list`, and get the first product from each query result. But using some `wear it with tags` arrays instead of the product tags array.
 
-### Wear it with rules
+### Wear it with rules document
 
 To obtain the `wear it with tags` arrays we need to define rules. We've been talking about to create an admin tool to define links between products, to declare wich product could be wear with other. **I propose to link tags instead of products**. I think this is a better approach because you are linking "kinds of product" intead of each single product, so the new products get linked automaticaly when they are tagged.
 These links or rules could be represented as a JSON document:
