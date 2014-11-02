@@ -6,7 +6,7 @@ Now product document has a tags array. This array describe the product, for inst
 
 ```
 {
-  tags: ['woman', 'jacket', 'leather', ...]
+  tags: ["woman", "jacket", "leather", ...]
 }
 ```
 
@@ -23,9 +23,9 @@ These links or rules could be represented as a JSON document:
 
 ```
 [
-  { with: ["leather", "jacket"], "wear": ["jeans"] },
-  { with: ["leather", "jacket"], "wear": ["leather", "nubuck", "sandals"] },
-  { with: ["leather", "jacket"], "wear": ["silver", "bracelet"] },
+  { with: ["woman", "leather", "jacket"], "wear": ["jeans"] },
+  { with: ["woman", "leather", "jacket"], "wear": ["leather", "nubuck", "sandals"] },
+  { with: ["woman", "leather", "jacket"], "wear": ["silver", "bracelet"] },
   
   ...
 ]
